@@ -16,7 +16,7 @@ First, you'll need to set up capd. It runs as a self-hosted server with a dashbo
 **2. Where to store analytics:** You can use DuckDB (lightweight, best for small websites) or ClickHouse (more scalable). Both are easy to set up and built-in.
 
 ::: code-group
-
+no
 ```bash [DuckDB]
 curl -fsSLo docker-compose.yml https://raw.githubusercontent.com/tiagozip/cap/main/capd/docker-compose.duckdb.yml
 echo "ADMIN_KEY=$(openssl rand -hex 24)" > .env
